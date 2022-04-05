@@ -1,0 +1,57 @@
+* {
+    background-color: rgb(253, 251, 251);
+    font-family: cursive;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    margin: 10px;
+    padding: 5px;
+    border: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: rgb(230, 57, 70);
+}
+
+#titulo {
+    font-size: 30px;
+}
+
+#nav li {
+    display: inline-block;
+    margin-right: 60px;
+    line-height: 20px;
+}
+
+main {
+    display: flex;
+}
+
+.lado-esquerdo {
+    width: 550px;
+    float: left;
+    top: 150px;
+    position: relative;
+}
+
+.lado-direito {
+    width: 550px;
+    float: right;
+    top: 100px;
+    position: relative;
+}
+
+#rodape {
+    display: block;
+    text-align: right;
+}
+
+#minha_foto {
+    width: 50px;
+    border-radius: 100%;
+}
